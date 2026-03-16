@@ -1,12 +1,19 @@
 class Swiggy{
-public static void createAccount(String firstname,String surname,String DOB,
-String gender,String email,long phoneNumber,String password){
-System.out.println("first name is "+ firstname);
-System.out.println("sur name is "+ surname );
-System.out.println("DOB is "+DOB );
-System.out.println("gender is"+ gender);
-System.out.println("email is "+ email);
-System.out.println("Phone number is "+ phoneNumber);
-System.out.println("password is"+password);
+public static double serach(String foodName){
+double price =0.0;
+if(foodName=="Burger"){
+price = 99.0;
+return price;
+} 
+else if(foodName=="Veg biriyani"){
+price =230.0;
+return price;
 }
- }
+return 0.0;
+
+}
+public static void main(String[] args){
+
+}
+
+}

@@ -1,13 +1,25 @@
 class Google{
-public static void createAccount(String firstname,String surname,String DOB,
-String gender,String email,long phoneNumber,String password){
-System.out.println("first name is "+ firstname);
-System.out.println("sur name is "+ surname );
-System.out.println("DOB is "+DOB );
-System.out.println("gender is"+ gender);
-System.out.println("email is "+ email);
-System.out.println("Phone number is "+ phoneNumber);
-System.out.println("password is"+password);
+void logIn(String userName,long phoneNumber){
+System.out.println("The Google logIn with userName and phoneNumber");
+System.out.println("The password is :"+ userName);
+System.out.println("the phoneNumber is:"+ phoneNumber);
 }
- }
- 
+
+void logIn(String password,int otp){
+System.out.println("The Google logIn with password and otp");
+System.out.println("password is :"+password);
+System.out.println("otp is "+ otp);
+}
+
+public static void main(String[] args){
+ Google google=new Google();
+google.logIn("Ashwini",9019922510L);
+google.logIn("ashy",4539); 
+  
+  }
+
+
+
+
+
+}
