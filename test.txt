@@ -1,0 +1,281 @@
+1. Explain Contsructer using this() with example?
+
+ans.  class Fan{
+
+String model;
+String colour;
+int price;
+Capacitor capacitor;
+
+
+public void getFanDetails(){
+
+System.out.println("The fan model is:+model");
+System.out.println("The fan  Colouris:+Colour");
+System.out.println("The fan model is:+price");
+capacitor.getCapacitorDetails();
+
+}
+
+
+}
+
+
+class Capacitor{
+
+String model;
+String colour;
+int price;
+
+public void get CapacitorDetails(){
+System.out.println("The model :"+model);
+System.out.println("The colour :"+colour);
+System.out.println("The price :"+price);
+
+
+
+}
+        
+
+}
+
+
+
+ class FanRunner{
+
+public static void main(String[] args){
+
+ Capaciror capacitor = new Capacitor();
+  capacitor.model="Fastrag";
+  capacitor.colour= "black";
+  capacitor.price=2342;
+
+
+
+Fan fan = new Fan();
+fan.model="Fast";
+fan.colour="White";
+fan.price=120;
+
+capacitor.getCapacitorDetails();
+
+
+}
+
+
+}
+
+
+
+
+
+
+2. Expalin default value assigned to  instance variable in java with example?
+
+In java defaul value is assigned to the instance variable Because if we not provide any variables the java will take 
+take default value .
+
+
+     class Fan{
+
+String model;
+String colour;
+int price;
+Capacitor capacitor;
+
+
+public void getFanDetails(){
+
+System.out.println("The fan model is:+model");
+System.out.println("The fan  Colouris:+Colour");
+System.out.println("The fan model is:+price");
+capacitor.getCapacitorDetails();
+
+}
+
+
+}
+
+
+      class Capacitor{
+
+String model;
+String colour;
+int price;
+
+public void get CapacitorDetails(){
+System.out.println("The model :"+model);
+System.out.println("The colour :"+colour);
+System.out.println("The price :"+price);
+
+
+
+}
+        
+
+}
+
+
+
+   class FanRunner{
+
+public static void main(String[] args){
+
+ Capaciror capacitor = new Capacitor();
+  capacitor.model="Fastrag";
+  capacitor.colour= "black";
+  capacitor.price=2342;
+
+
+
+Fan fan = new Fan();
+fan.model="Fast";
+fan.colour="White";
+fan.price=120;
+
+capacitor.getCapacitorDetails();
+
+
+}
+
+
+}
+
+
+  6. What is Constructer in java? Who provides the default constructer ?
+
+Constructer is same as a  method , which perform the specific task on references .
+
+
+Compiler provides the default constructer.
+ 
+
+7.Can a constructer have a return type? why?
+
+yes constructer has a return type , the jvm will provide the return type in java.
+
+
+8. Give a real -World example of a has a relationship?
+
+    class Fan{
+
+String model;
+String colour;
+int price;
+Capacitor capacitor;
+
+
+public void getFanDetails(){
+
+System.out.println("The fan model is:+model");
+System.out.println("The fan  Colouris:+Colour");
+System.out.println("The fan model is:+price");
+capacitor.getCapacitorDetails();
+
+}
+
+
+}
+
+
+      class Capacitor{
+
+String model;
+String colour;
+int price;
+
+public void get CapacitorDetails(){
+System.out.println("The model :"+model);
+System.out.println("The colour :"+colour);
+System.out.println("The price :"+price);
+
+
+
+}
+        
+
+}
+
+
+
+   class FanRunner{
+
+public static void main(String[] args){
+
+ Capaciror capacitor = new Capacitor();
+  capacitor.model="Fastrag";
+  capacitor.colour= "black";
+  capacitor.price=2342;
+
+
+
+Fan fan = new Fan();
+fan.model="Fast";
+fan.colour="White";
+fan.price=120;
+
+capacitor.getCapacitorDetails();
+
+
+}
+
+
+}
+
+
+4. Write a program to demonstrate a default constructer?
+
+class Laptop{
+String brand;
+String laptopId;
+int price;
+String ram;
+
+public void getLaptopDetails(){
+
+ System.out,println("The brand :"+brand);
+ System.out,println("The laptopId :"+laptopId);
+ System.out,println("The price :"+price );
+ System.out,println("The ram:"+ram);
+
+
+
+}
+
+}
+ 
+class LaptopRunner{
+
+   public static void main(String[] a){
+
+ Laptop laptop = new Laptop();
+  
+ laptop.brand ="HP";
+ laptop.laptopId="as23";
+ laptop.price=21,000;
+ laptop.ram="120 ram":
+
+ System.out,println("The brand :"+brand);
+ System.out,println("The laptopId :"+laptopId);
+ System.out,println("The price :"+price );
+ System.out,println("The ram:"+ram);
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+ 
+
+
+
